@@ -1,0 +1,274 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial scale=1.0">
+    <title>Trevor Herr</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/82ea444ed6.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav id="navbar">
+      <ul id="nav-list">
+        <li class="nav-option" id="CV"><a href=""><i class="fa-regular fa-file"></i> CV</a></li>
+        <li class="nav-option"><a href="#welcome-header"><i class="fa-solid fa-address-card"></i> About</a></li>
+        <li class="nav-option"><a href="#projects"><i class="fa-solid fa-diagram-project"></i> Projects</a></li>
+        <li class="nav-option"><a href="#contact"><i class="fa-solid fa-message"></i> Contact</a></li>
+      </ul>
+    </nav>
+    <section id="welcome-section" class="welcome-section">
+      <div id="welcome-header">
+        <h1>Trevor Herr</h1>
+        <p><i>Finance Professional</i></p>
+      </div>
+      <div id="welcome-video">
+        <iframe src="https://www.youtube.com/embed/2sfehOWWms8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+    <hr class="seperator">
+    <section id="projects" class="projects">
+      <div id="projects-header">
+        <h2>Check out my Excel Templates and other personal projects</h2>
+      </div>
+      <div id="projects-list">
+        <a class="project-tile" href="https://drive.google.com/drive/folders/15LlPo2_eUxBuXO4WFOsSohjzHkVVwqpX?usp=sharing" target="_blank">
+          <p class="project-title">Portfolio Template</p>
+        </a>
+        <a class="project-tile" href="https://docs.google.com/spreadsheets/d/1RNwcK_SX1ClYrNS_DAmcsh9vYjPuOBGk/edit?usp=sharing&ouid=100306179132600832649&rtpof=true&sd=true" target="_blank">
+          <p class="project-title">Canadian ETF Comparisons (Ongoing)</p>
+        </a>
+        <a class="project-tile" href="https://docs.google.com/spreadsheets/d/15i9AWW2IKer2-Cf-VmRvzYO7BLXn-hSJ/edit?usp=sharing&ouid=100306179132600832649&rtpof=true&sd=true" target="_blank">
+          <p class="project-title">Company Valuation Template (Ongoing)</p>
+        </a>
+        <a class="project-tile" href="https://docs.google.com/spreadsheets/d/1qGZgrZfwQO--ti6PpbJiS8ML2R-jdB36/edit?usp=sharing&ouid=100306179132600832649&rtpof=true&sd=true" target="_blank">
+          <p class="project-title">Ontario Gas Price Analysis (Updated periodically)</p>
+        </a>
+        <a class="project-tile" href="" target="_blank">
+          <p class="project-title">Apple Stock Price during Events</p>
+        </a>
+        <a class="project-tile" href="" target="_blank">
+          <p class="project-title">Youtube Channel</p>
+        </a>
+      </div>  
+    </section>
+    <section id="contact">
+      <h2>Want to get in touch?</h2>
+      <div id="contacts-list">
+        <a href="" target="_blank">
+          <div id="linkedin" class="button">
+            <p>Linkedin</p>
+          </div>
+        </a>
+        <a id="profile-link" href="" target="_blank">
+          <div id="twitter" class="button">
+            <p>Twitter</p>
+          </div>
+        </a>
+        <a href="" target="_blank">
+          <div id="email" class="button">
+            <p>Email</p>
+          </div>
+        </a>
+      </div>
+    </section>
+    <footer>
+      <p>Copyright © 2022 Trevor Herr</p>
+    </footer>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+:root {
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  text-align: center;
+  font-family: Helvetica, Arial;
+  background-color: #f5f5f5
+}
+
+div {
+  border: 
+}
+
+a {
+  text-decoration: none;
+}
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    45deg,
+    rgb(154,154,154),
+    rgb(112,112,112)
+  )
+}
+
+#welcome-header {
+  display: inline-block;
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 50px;
+  width: 30%;
+  top: 50%;
+  background-color:  	rgba(128,0,0, 1);
+  border-radius: 30px;
+  padding: 50px;
+  box-shadow: 0px 10px 10px darkgray;
+  color: rgb(255,255,242)
+}
+
+#welcome-header h1 {
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+}
+
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;  
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#nav-list {
+  display: flex;
+  margin-right:;
+}
+
+#nav-list a {
+  display: block;
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: white;
+  padding: 2.2rem;
+}
+
+#nav-list a:hover {
+  background:  rgb(128,0,0);
+}
+
+#CV {
+  background: rgb(128,0,0);
+  border-radius: 0 0 10% 10%;
+}
+
+#welcome-video h2 {
+  font-size: 4rem;
+  color: white;
+}
+
+#welcome-video iframe {
+  box-shadow: 0px 10px 10px lightgray;
+  height: 427px;
+  width: 760px;
+}
+
+@media (max-width: 80em) {
+  html {
+    font-size: 60%;
+  }
+  #welcome-video iframe {
+    height: 80%;
+    width: 80%;
+  }
+}
+
+@media (max-width: 60em) {
+  html {
+    font-size: 58%;
+  }
+  #welcome-video iframe {
+    width: 600px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 40em) {
+  html {
+    font-size: 55%;
+  }
+  #welcome-video iframe {
+    height: 80%;
+    width: 80%;
+  }
+}
+
+.projects {
+  padding: 8rem 3rem;
+  background: linear-gradient(
+    45deg,
+    rgb(154,154,154),
+    rgb(112,112,112)
+  )
+}
+
+#projects h2 {
+  font-size: 3.8rem;
+  color: white;
+  margin-bottom: 3rem;
+}
+
+#projects-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+.project-tile {
+  background: rgba(128, 0,0,0.8);
+  border-radius: 10px;
+}
+
+.project-title {
+  color: white;
+  font-size: 3rem;
+}
+
+#contacts-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+}
+
+footer {
+  background-color: black;
+  color: rgb(255,255,242)
+}
+
+** end of undefined **
+
