@@ -211,6 +211,11 @@ ul {
   display: inline-block;
 }
 
+.link-icons {
+  width: 1rem;
+  height: 1rem;
+}
+
 #linkedin {
   background: #0072b1;
   border-radius: 10px;
