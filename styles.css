@@ -170,6 +170,14 @@ ul {
   font-size: 3rem;
 }
 
+#portfolio-template {
+  padding-top: 4%;
+}
+
+#youtube {
+  padding-top: 4%;
+}
+
 #contact {
   padding: 8rem 3rem;
   height: 20%;
@@ -197,6 +205,10 @@ ul {
 .button {
   color: white;
   font-size: 3rem;
+}
+
+.buttontext {
+  display: inline-block;
 }
 
 #linkedin {
