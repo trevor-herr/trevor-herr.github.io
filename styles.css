@@ -109,36 +109,6 @@ ul {
   width: 760px;
 }
 
-@media (max-width: 80em) {
-  html {
-    font-size: 60%;
-  }
-  #welcome-video iframe {
-    height: 80%;
-    width: 80%;
-  }
-}
-
-@media (max-width: 60em) {
-  html {
-    font-size: 58%;
-  }
-  #welcome-video iframe {
-    width: 600px;
-    height: 300px;
-  }
-}
-
-@media (max-width: 40em) {
-  html {
-    font-size: 55%;
-  }
-  #welcome-video iframe {
-    height: 80%;
-    width: 80%;
-  }
-}
-
 .projects {
   padding: 8rem 3rem;
   background: rgb(15, 52, 96)
@@ -156,26 +126,25 @@ ul {
   grid-gap: 4rem;
   width: 100%;
   max-width: 1280px;
-  margin: 0 auto;
+  margin: auto;
   margin-bottom: 6rem;
 }
 
 .project-tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 8rem;
   background: rgba(128, 0,0,0.8);
   border-radius: 10px;
-}
-
-.project-title {
   color: white;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
-#portfolio-template {
-  padding-top: 4%;
-}
-
-#youtube {
-  padding-top: 4%;
+.project-tile:hover {
+  background: white;
+  color: maroon;
+  border-radius: 10px;
 }
 
 #contact {
@@ -211,10 +180,6 @@ ul {
   display: inline-block;
 }
 
-.link-icons {
-  width: 1rem;
-  height: 1rem;
-}
 
 #linkedin {
   background: #0072b1;
