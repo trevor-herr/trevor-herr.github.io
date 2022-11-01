@@ -107,15 +107,6 @@ ul {
   background:  rgb(128,0,0);
 }
 
-#CV a:hover {
-  background: white;
-  color: maroon;
-}
-
-#CV {
-  background: rgb(128,0,0);
-}
-
 #welcome-video h2 {
   font-size: 4rem;
   color: white;
