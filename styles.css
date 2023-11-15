@@ -12,7 +12,8 @@ html {
 body {
   text-align: center;
   font-family: Helvetica, Arial;
-  background-color: #f5f5f5
+  background-color: #f5f5f5;
+  Width:  100%;
 }
 
 div {
@@ -36,10 +37,10 @@ a {
 #welcome-header {
   display: inline-block;
   text-align: center;
-  font-size: 6rem;
-  width: 40%;
-  top: 50%;
-  padding: 50px;
+  font-size: 6lvh;
+  width: 100%;
+  top: 0;
+  padding: 0;
   color: rgb(255,255,242)
 }
 
@@ -51,11 +52,12 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 15%;
-  height: 6%;
+  width: 30%;
+  height: 6rem;
   background: maroon;
-  margin-bottom: 50px;
+  margin-bottom: 4lvh;
   border-radius: 10px;
+  margin-top: 4lvh;
 }
 
 #resume-link {
@@ -64,7 +66,10 @@ a {
   text-decoration: none;
   color: white;
   font-size: 4rem;
-  padding-top: 4%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
 }
 
 #resume a:hover {
@@ -122,8 +127,8 @@ ul {
 }
 
 #welcome-video iframe {
-  height: 427px;
-  width: 760px;
+  height: 50lvh;
+  width: 50lvw;
 }
 
 .projects {
@@ -201,7 +206,7 @@ ul {
 
 .button {
   color: white;
-  font-size: 3rem;
+  font-size: 1rem;
   border-radius: 10px;
 }
 
