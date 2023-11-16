@@ -16,10 +16,6 @@ body {
   Width:  100%;
 }
 
-div {
-  border: 
-}
-
 a {
   text-decoration: none;
 }
@@ -39,6 +35,8 @@ a {
   text-align: center;
   font-size: 300%;
   width: 100%;
+  padding-left: 3%;
+  padding-right: 3%;
   top: 0;
   color: rgb(255,255,242)
 }
@@ -225,8 +223,8 @@ ul {
 }
 
 #linkedin:hover {
-  scale: 1.2;
-  opacity: 0.8;
+  background: white;
+  color: #0072b1;
 }
 
 #twitter {
@@ -236,8 +234,8 @@ ul {
 }
 
 #twitter:hover {
-  scale: 1.2;
-  opacity: 0.8;
+  background: white;
+  color: #1DA1F2;
 }
 
 #email {
@@ -247,8 +245,8 @@ ul {
 }
 
 #email:hover {
-  scale: 1.2;
-  opacity: 0.8;
+  background: white;
+  color: green;
 }
 
 #YT {
@@ -258,8 +256,8 @@ ul {
 }
 
 #YT:hover {
-  scale: 1.2;
-  opacity: 0.8;
+  background: white;
+  color: red;
 }
 
 #goodreads {
@@ -270,8 +268,8 @@ ul {
 }
 
 #goodreads:hover {
-  scale: 1.2;
-  opacity: 0.8;
+  background: #8B4513;
+  color: #EADDCA;
 }
 
 footer {
